@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94c7147a-ca8f-430c-9f58-c1dcf37d1a79" name="Changes" comment="“返回Insert操作自增索引值”">
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/mybatis.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/annotations/Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/annotations/Insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/annotations/Select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/annotations/Update.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/binding/MapperMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/binding/MapperProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/binding/MapperProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/binding/MapperRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/builder/BaseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/builder/MapperBuilderAssistant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/builder/ParameterExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/builder/ResultMapResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/builder/SqlSourceBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/builder/StaticSqlSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/builder/annotation/MapperAnnotationBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/builder/xml/XMLConfigBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/builder/xml/XMLMapperBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/builder/xml/XMLStatementBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/datasource/DataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/datasource/druid/DruidDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/datasource/pooled/PoolState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/datasource/pooled/PooledConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/datasource/pooled/PooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/datasource/pooled/PooledDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/datasource/unpooled/UnpooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/datasource/unpooled/UnpooledDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/BaseExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/SimpleExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/keygen/Jdbc3KeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/keygen/KeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/keygen/NoKeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/keygen/SelectKeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/parameter/ParameterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/result/DefaultResultContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/result/DefaultResultHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/resultset/DefaultResultSetHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/resultset/ResultSetHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/resultset/ResultSetWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/statement/BaseStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/statement/PreparedStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/statement/SimpleStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/executor/statement/StatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/io/Resources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/mapping/BoundSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/mapping/Environment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/mapping/MappedStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/mapping/ParameterMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/mapping/ResultFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/mapping/ResultMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/mapping/ResultMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/mapping/SqlCommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/mapping/SqlSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/parsing/GenericTokenParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/parsing/TokenHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/plugin/Interceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/plugin/InterceptorChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/plugin/Intercepts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/plugin/Invocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/plugin/Plugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/plugin/Signature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/MetaClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/MetaObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/Reflector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/SystemMetaObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/factory/DefaultObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/factory/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/invoker/GetFieldInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/invoker/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/invoker/MethodInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/invoker/SetFieldInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/property/PropertyNamer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/property/PropertyTokenizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/wrapper/BaseWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/wrapper/BeanWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/wrapper/CollectionWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/wrapper/DefaultObjectWrapperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/wrapper/MapWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/wrapper/ObjectWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/reflection/wrapper/ObjectWrapperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/LanguageDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/LanguageDriverRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/defaults/DefaultParameterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/defaults/RawSqlSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/xmltags/DynamicContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/xmltags/DynamicSqlSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/xmltags/ExpressionEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/xmltags/IfSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/xmltags/MixedSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/xmltags/OgnlCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/xmltags/OgnlClassResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/xmltags/SqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/xmltags/StaticTextSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/xmltags/TextSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/xmltags/TrimSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/xmltags/XMLLanguageDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/scripting/xmltags/XMLScriptBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/session/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/session/ResultContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/session/ResultHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/session/RowBounds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/session/SqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/session/SqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/session/SqlSessionFactoryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/session/TransactionIsolationLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/transaction/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/transaction/TransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/transaction/jdbc/JdbcTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/transaction/jdbc/JdbcTransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/type/BaseTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/type/DateTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/type/JdbcType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/type/LongTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/type/SimpleTypeRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/type/StringTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/type/TypeAliasRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/type/TypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/main/java/cn/bugstack/mybatis/type/TypeHandlerRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/test/java/cn/bugstack/mybatis/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/test/java/cn/bugstack/mybatis/test/dao/IActivityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/test/java/cn/bugstack/mybatis/test/plugin/TestPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/test/java/cn/bugstack/mybatis/test/po/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/test/resources/mapper/Activity_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-step-16/src/test/resources/mybatis-config-datasource.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\apache-maven-3.6.1\mvn_repo\responsitory" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Maven/apache-maven-3.6.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+  </component>
+  <component name="ProjectId" id="2tFc1wfJP8mCTVzQnznGu0pRS4V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/IDEACode/Mybatis",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94c7147a-ca8f-430c-9f58-c1dcf37d1a79" name="Changes" comment="" />
+      <created>1739951051199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739951051199</updated>
+      <workItem from="1739951052463" duration="605000" />
+    </task>
+    <task id="LOCAL-00001" summary="“二级缓存”">
+      <created>1739951188922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739951188922</updated>
+    </task>
+    <task id="LOCAL-00002" summary="“把反射用到出神入化”">
+      <created>1739951373225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739951373225</updated>
+    </task>
+    <task id="LOCAL-00003" summary="“细化XML语句构建器，完善静态SQL解析”">
+      <created>1739951413280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739951413280</updated>
+    </task>
+    <task id="LOCAL-00004" summary="“使用策略模式，调用参数处理器”">
+      <created>1739951461395</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739951461395</updated>
+    </task>
+    <task id="LOCAL-00005" summary="“流程解耦，封装结果集处理器”">
+      <created>1739951499213</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739951499213</updated>
+    </task>
+    <task id="LOCAL-00006" summary="“完善ORM框架，增删改查操作”">
+      <created>1739951528271</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739951528271</updated>
+    </task>
+    <task id="LOCAL-00007" summary="“通过注解配置执行SQL语句”">
+      <created>1739951564329</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739951564329</updated>
+    </task>
+    <task id="LOCAL-00008" summary="“解析和使用ResultMap映射参数配置”">
+      <created>1739951607118</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739951607118</updated>
+    </task>
+    <task id="LOCAL-00009" summary="“返回Insert操作自增索引值”">
+      <created>1739951641483</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739951641483</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="“二级缓存”" />
+    <MESSAGE value="“把反射用到出神入化”" />
+    <MESSAGE value="“细化XML语句构建器，完善静态SQL解析”" />
+    <MESSAGE value="“使用策略模式，调用参数处理器”" />
+    <MESSAGE value="“流程解耦，封装结果集处理器”" />
+    <MESSAGE value="“完善ORM框架，增删改查操作”" />
+    <MESSAGE value="“通过注解配置执行SQL语句”" />
+    <MESSAGE value="“解析和使用ResultMap映射参数配置”" />
+    <MESSAGE value="“返回Insert操作自增索引值”" />
+    <option name="LAST_COMMIT_MESSAGE" value="“返回Insert操作自增索引值”" />
+  </component>
+</project>
