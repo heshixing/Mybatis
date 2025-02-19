@@ -6,5 +6,10 @@ package com.hsx.mybatis.test.dao;
  * @date: 2025-02-19
  * @author:2372781727@qq.com
  */
-public class IUserDao {
+public interface IUserDao {
+
+    String queryUserName(String uId);
+
+    Integer queryUserAge(String uId);
+
 }
