@@ -4,116 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f59ce4c4-ee45-4236-aacb-a846628cab53" name="Changes" comment="“Mapper XML的解析和注册使用”">
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/binding/MapperMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/binding/MapperProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/binding/MapperProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/binding/MapperRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/builder/BaseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/builder/xml/XMLConfigBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/io/Resources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/mapping/MappedStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/mapping/SqlCommandType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/session/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/session/SqlSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/session/SqlSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/session/SqlSessionFactoryBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/java/com/hsx/mybatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/resources/mapper/User_Mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/main/resources/mybatis-config-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/test/java/com/hsx/mybatis/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/test/java/com/hsx/mybatis/test/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-04/src/test/java/com/hsx/mybatis/test/po/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/mybatis.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/binding/MapperMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/binding/MapperProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/binding/MapperProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/binding/MapperRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/builder/BaseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/builder/xml/XMLConfigBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/datasource/DataSourceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/datasource/druid/DruidDataSourceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/io/Resources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/mapping/BoundSql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/mapping/Environment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/mapping/MappedStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/mapping/ParameterMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/mapping/SqlCommandType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/session/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/session/SqlSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/session/SqlSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/session/SqlSessionFactoryBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/session/TransactionIsolationLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/transaction/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/transaction/TransactionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/transaction/jdbc/JdbcTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/transaction/jdbc/JdbcTransactionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/type/JdbcType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/main/java/com/hsx/mybatis/type/TypeAliasRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/test/java/com/hsx/mybatis/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/test/java/com/hsx/mybatis/test/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/test/java/com/hsx/mybatis/test/po/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/test/resources/mapper/User_Mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-05/src/test/resources/mybatis-config-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/mybatis.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/binding/MapperMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/binding/MapperProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/binding/MapperProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/binding/MapperRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/builder/BaseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/builder/xml/XMLConfigBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/datasource/DataSourceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/datasource/druid/DruidDataSourceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/datasource/pooled/PoolState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/datasource/pooled/PooledConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/datasource/pooled/PooledDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/datasource/pooled/PooledDataSourceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/datasource/unpooled/UnpooledDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/datasource/unpooled/UnpooledDataSourceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/executor/BaseExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/executor/Executor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/executor/SimpleExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/executor/resultset/DefaultResultSetHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/executor/resultset/ResultSetHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/executor/statement/BaseStatementHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/executor/statement/PreparedStatementHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/executor/statement/SimpleStatementHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/executor/statement/StatementHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/io/Resources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/mapping/BoundSql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/mapping/Environment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/mapping/MappedStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/mapping/ParameterMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/mapping/SqlCommandType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/session/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/session/ResultHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/session/SqlSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/session/SqlSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/session/SqlSessionFactoryBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/session/TransactionIsolationLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/transaction/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/transaction/TransactionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/transaction/jdbc/JdbcTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/transaction/jdbc/JdbcTransactionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/type/JdbcType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/main/java/com.hsx/mybatis/type/TypeAliasRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/test/java/com/hsx/mybatis/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/test/java/com/hsx/mybatis/test/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/test/java/com/hsx/mybatis/test/po/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/test/resources/mapper/User_Mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-06/src/test/resources/mybatis-config-datasource.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f59ce4c4-ee45-4236-aacb-a846628cab53" name="Changes" comment="“数据源的解析、创建和使用”" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -301,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739945124115</updated>
       <workItem from="1739945125576" duration="60000" />
-      <workItem from="1739945190832" duration="5685000" />
+      <workItem from="1739945190832" duration="5828000" />
     </task>
     <task id="LOCAL-00001" summary="“项目初始化”">
       <created>1739946286463</created>
@@ -338,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739949088025</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="“数据源的解析、创建和使用”">
+      <created>1739950937605</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739950937605</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +258,7 @@
     <MESSAGE value="“创建简单的映射器代理工厂”" />
     <MESSAGE value="“实现映射器的注册和使用”" />
     <MESSAGE value="“Mapper XML的解析和注册使用”" />
-    <option name="LAST_COMMIT_MESSAGE" value="“Mapper XML的解析和注册使用”" />
+    <MESSAGE value="“数据源的解析、创建和使用”" />
+    <option name="LAST_COMMIT_MESSAGE" value="“数据源的解析、创建和使用”" />
   </component>
 </project>
