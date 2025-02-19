@@ -4,30 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f59ce4c4-ee45-4236-aacb-a846628cab53" name="Changes" comment="“创建简单的映射器代理工厂”">
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/src/main/java/com/hsx/mybatis/binding/MapperProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/src/main/java/com/hsx/mybatis/binding/MapperProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/src/main/java/com/hsx/mybatis/binding/MapperRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/src/main/java/com/hsx/mybatis/session/SqlSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/src/main/java/com/hsx/mybatis/session/SqlSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/src/main/java/com/hsx/mybatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/src/main/java/com/hsx/mybatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/src/test/java/com/hsx/mybatis/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/src/test/java/com/hsx/mybatis/test/dao/ISchoolDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/src/test/java/com/hsx/mybatis/test/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/target/classes/com/hsx/mybatis/binding/MapperProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/target/classes/com/hsx/mybatis/binding/MapperProxyFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/target/test-classes/com/hsx/mybatis/test/ApiTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-step-02/target/test-classes/com/hsx/mybatis/test/dao/IUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f59ce4c4-ee45-4236-aacb-a846628cab53" name="Changes" comment="“项目初始化”">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hsx/mybatis/binding/MapperProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hsx/mybatis/binding/MapperProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hsx/mybatis/binding/MapperProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hsx/mybatis/binding/MapperProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hsx/mybatis/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hsx/mybatis/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hsx/mybatis/test/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hsx/mybatis/test/dao/IUserDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +53,7 @@
     <option name="jreName" value="17" />
   </component>
   <component name="ProjectId" id="2tFQ0xHxU9azUFwsL3UrTMIi2Cw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -82,8 +63,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "D:/IDEACode/small-mybatis-master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/IDEACode/Mybatis",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -91,28 +72,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEACode\Mybatis" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_MapperProxyFactory (1)">
-    <configuration name="ApiTest.test_MapperProxyFactory (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-step-02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hsx.mybatis.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hsx.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.hsx.mybatis.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_MapperProxyFactory" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="ApiTest.test_MapperProxyFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-step-01" />
       <extension name="coverage">
@@ -144,7 +104,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApiTest.test_MapperProxyFactory (1)" />
         <item itemvalue="JUnit.ApiTest.test_MapperProxyFactory" />
       </list>
     </recent_temporary>
@@ -158,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739945124115</updated>
       <workItem from="1739945125576" duration="60000" />
-      <workItem from="1739945190832" duration="3169000" />
+      <workItem from="1739945190832" duration="2237000" />
     </task>
     <task id="LOCAL-00001" summary="“项目初始化”">
       <created>1739946286463</created>
@@ -167,14 +126,7 @@
       <option name="project" value="LOCAL" />
       <updated>1739946286463</updated>
     </task>
-    <task id="LOCAL-00002" summary="“创建简单的映射器代理工厂”">
-      <created>1739947505941</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1739947505941</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +145,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="“项目初始化”" />
-    <MESSAGE value="“创建简单的映射器代理工厂”" />
-    <option name="LAST_COMMIT_MESSAGE" value="“创建简单的映射器代理工厂”" />
+    <option name="LAST_COMMIT_MESSAGE" value="“项目初始化”" />
   </component>
 </project>
